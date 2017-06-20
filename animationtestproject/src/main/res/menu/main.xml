@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group>
+        <item
+            android:id="@+id/frame_animation"
+            android:title="FrameAnimation" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/tween_animation_translate"
+            android:actionViewClass="android.support.v7.widget.SearchView"
+            android:icon="@drawable/ic_search_black_24dp"
+            android:title="TweenAnimationTranlate" />
+        <item
+            android:id="@+id/tween_animation_set"
+            android:title="TweenAnimationSet" />
+    </group>
+
+    <group
+        >
+        <item
+            android:id="@+id/transprate"
+            android:title="transprate" />
+        <item
+            android:id="@+id/scale"
+            android:title="scale" />
+        <item
+            android:id="@+id/rotation"
+            android:title="rotation" />
+        <item
+            android:id="@+id/alpha"
+            android:title="alpha" />
+    </group>
+
+
+    <group
+        >
+        <item
+            android:id="@+id/svg_animator_lujing"
+            android:title="svg_animator_lujing" />
+        <item
+            android:id="@+id/svg_animator_bianxing"
+            android:title="svg_animator_bianxing" />
+        <!--<item
+            android:id="@+id/rotation"
+            android:title="rotation" />-->
+
+    </group>
+
+</menu>
